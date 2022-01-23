@@ -15,7 +15,8 @@ alert('I love JavaScript!');
 и
 /*много
 строчный*/
-// console.log(second);//Cannot access 'second' before initialization другими словами переменной еще не сущ
+// console.log(second);//Cannot access 'second' before initialization другими словами переменной еще не 
+// сущ
 // console.log(leftBorderWidth);//undefined переменная созданная но пока не имеет никакого значения
 // var leftBorderWidth = 1;
 // let second = 2;
