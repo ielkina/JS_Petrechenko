@@ -1,0 +1,24 @@
+git init 
+echo >> README.
+git config --global user.name "irina"
+git config --global user.email "email"
+git add -A //все файлы
+git add file //добавление файла
+git status //стату файла
+git commit -a -m "first" //первый комит внесенее изменений в документ 
+git add *.html
+git log //слежение за комитами
+git (shift+ins) //сокращенная форма лога
+git log --help
+git clear // удаление с консоли всей информации
+
+***********************
+github
+
+new repository
+
+git remote add origin  - путь к репозиторию
+git push -u origin master //команда перемещения файлов на сервер
+
+git push origin
+
