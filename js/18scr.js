@@ -87,21 +87,3 @@ console.log(calc(4, 3));//7
 console.log(calc(5, 6));//11
 console.log(calc(10, 5));//15
 
-//Методы и свойства строк и чисел
-//Методы это вспомогательные функции
-//Свойства это вспомогательные значения 
-
-let str = 'test';
-console.log(str.length);//4 длинна строки
-
-console.log(str.toUpperCase());//TEST верхний регист 
-console.log(str.toLocaleLowerCase());//нижний регистр 
-
-let twelve = '12.2';
-console.log(Math.round(twelve));//12 округление
-
-let twelve = '12.2px';
-console.log(parseInt(twelve));//12
-
-let twelve = '12.2px';
-console.log(parseFloat(twelve));//12.2
