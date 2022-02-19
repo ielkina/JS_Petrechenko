@@ -1,0 +1,20 @@
+/* body {
+   display: block;
+   margin: 8px;
+}*/
+
+button {
+   margin-bottom: 10px;
+   margin-top: 10px;
+}
+
+.btn-block {
+   padding: 10px;
+   background-color: grey;
+   margin-top: 10px;
+}
+
+/*
+.blue {
+   background-color: blue;
+} */

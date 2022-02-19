@@ -1,0 +1,37 @@
+//выбираем элемент с которым будем работать
+const btns = document.querySelectorAll('button');
+//количество классов у выбранного элемента 
+// console.log(btns[0].classList.length);//2
+//получение класса элемента
+// console.log(btns[0].classList.item(0));//blue
+//добавление классов у выбранного элемента
+//в инструменте разработчика в браузере к выбранному элементу добавиться класс red
+// не в html документе а в браузере
+//<button class="blue some red"></button>
+console.log(btns[0].classList.add('red', 'addClass'));
+//удаление ненужных классов у выбранного элемента
+// console.log(btns[0].classList.remove('blue'));
+//добавление класса у выбранного элемента если его нет и наоборот
+//если он есть удаление 
+console.log(btns[0].classList.toggle('blue'));
+//<button class="some blue"></button>
+
+//проверка наличия класса на выборном элементе (возвращает булийное значение(true/false))
+if (btns[1].classList.contains('red')) {
+	console.log('red');
+}
+
+добавление динамических классов активности (меню гамбургер)
+проверка на наличие выбранного классса 
+если такого класса не обнаруженно добавляется 
+если же обнаружен удаляется
+реализовать можно двумя способами 
+условиями на проверку данного класса или с помощью метода toggle
+btns[0].addEventListener('click', () => {
+	// if (!btns[1].classList.contains('red')) {
+	// 	btns[1].classList.add('red');
+	// } else {
+	// 	btns[1].classList.remove('red');
+	// }
+	btns[1].classList.toggle('red');
+});
